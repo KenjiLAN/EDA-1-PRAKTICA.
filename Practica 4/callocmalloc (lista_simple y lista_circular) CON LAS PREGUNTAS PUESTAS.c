@@ -134,13 +134,14 @@ for (int i = 0; i < n; i++) {
     return 0;
 }
 
-//1. ¿Qué diferencia observaron entre los valores iniciales con malloc y calloc?
+//1. Â¿QuÃ© diferencia observaron entre los valores iniciales con malloc y calloc?
 // r= MALLOC me dejo valores basura despues solo me dijeron que rimensionara el de calloc malloc que quedo igual que al inicio con basura calloc se llevo toda la practica, la redimencion de arreglo 2 y el nuevo dato
 
-//2. ¿Qué sucede si en realloc piden un tamaño más grande que el original? ¿y más pequeño?
+//2. Â¿QuÃ© sucede si en realloc piden un tamaÃ±o mÃ¡s grande que el original? Â¿y mÃ¡s pequeÃ±o?
 //R= aqui si me di cuenta que al aumentar se le agrego que me pidiera un nuevo digito pero al reducirlo me daba error al inicio pero agregue una confirmacion que me advirtiera qye se me perderian valores y ya por gusto agregue cuales se perderian ya que en un mundo donde se llegue a usar en una oficina incluso saber que perdiste es importante parta reponerlo en caso de un accidente
 
-//3. ¿Qué pasa si olvidan llamar a free?
-//Lo intente al hacer pruebas y testeos con mi programa y tecnicamente no paso nada.. igaul me dio miedo.. pero se supone que la memoria no se libera el programa consume cada vez más RAM si se repite muchas veces, mi sistema se puede quedar sin memoria
+//3. Â¿QuÃ© pasa si olvidan llamar a free?
+//Lo intente al hacer pruebas y testeos con mi programa y tecnicamente no paso nada.. igaul me dio miedo.. pero se supone que la memoria no se libera el programa consume cada vez mÃ¡s RAM si se repite muchas veces, mi sistema se puede quedar sin memoria y crashear la PC
+
 
 
