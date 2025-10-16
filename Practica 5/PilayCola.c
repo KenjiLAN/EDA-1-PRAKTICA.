@@ -200,4 +200,9 @@ int main() {
     return 0;
 }
 
-//
+//1. ¿Qué diferencias notaron entre el orden de salida de la pila y de la cola?
+// EN LA PILA ME SACA LOS ULTIMOS DATOS COMO LO EXPLIQUE AL FINAL DE MI PROGRAMA, Y LA COLA ME SACA LOS PRIMEROS DATOS INGRESADOS.. 
+//2. ¿Qué sucede si intentan hacer pop en una pila vacía o dequeue en una cola vacía?
+// En mi programa aparece un mensaje Sorry la pila/cola Estan vacias
+//3. ¿Qué sucede si intentan insertar más elementos que la capacidad máxima?
+//Aparece el mensaje la cola está llena, aunque en mi programa evito eso tecnicamente haciendo la evaluacion desde un inicio para evitar esa cuestion.
